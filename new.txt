@@ -1,0 +1,81 @@
+User: What is Theory of Computation?
+Chatbot: Theory of Computation is branch of science that studies the nature and range of the computation. It includes analysis and design of algorithms.
+\n
+User: What is Automata Theory?
+Chatbot: Automata Theory is the branch of the theory of computation. It deals with the study of abstract machine and their properties. It helps us to understand how machine compute the function and solve problems.
+\n
+User: What is Finite Automata?
+Chatbot: A mathematical machine which contain limited number of possible states which can be reached starting from initial state and determine whether a string is contained within some language or not. The control moves from one state to another based on input.
+\n
+User: : What is your understanding regarding alphabet, string and language of automata theory?
+Chatbot: Alphabet is the set of the finite non empty symbol where the symbols can be letters, digits, special characters etc.String is the combination of alphabet in some order with a finite length.Language is the subset of the string that can be formed from the alphabet of finite set.
+\n
+User: What is the difference between Kleen closure and positive closure?
+Chatbot: Kleen closure is union of all possible string over the given alphabet including the string of length ‘0’ i.e epsilon.Positive closure is union of all possible string over the given alphabet except or excluding the string of length ‘0’.
+\n
+User: Define DFA. How can you represent DFA?
+Chatbot: DFA which stands for the Deterministic Finite Automata is automata whose control moves to a single determined state for given input.DFA can be represented by :Transition table,Transition diagram.
+\n
+User: What is the difference between DFA and NFA? Which method is used for converting NFA to DFA?
+Chatbot: DFA which stands for the Deterministic Finite Automata is automata whose control moves to a single determined state for given input.NFA which stands for the Non-deterministic Finite Automata is automata whose control moves to a multiple state for given single input.To convert a NFA to DFA we use set builder method.
+\n
+User: What difference is observed in Melay and Moore machine?
+Chatbot: If the output of the finite automata is determined by the present state then it is called Moore machine. The length of input string is less than that of output string i.e if the length of the input string is n the the length of the output string is n+1.If the output of the finite automata is determined by the present input instead of present state then it is called Moore machine. The length of input string is equal to the length of output string.
+\n
+User: What is meant by unreachable state?
+Chatbot: Those state which can’t be reached when started from initial state are unreachable state. We can also say it as a state which have no any incoming edge but only have outgoing edge.
+\n
+User: : Give the concept of Dead state.
+Chatbot: A non-final state of DFA whose every input ends on it is called as dead state. We can also say it as a non-final state which have incoming edge but only no any outgoing edge is the dead state.
+\n
+User: What is epsilon closure?
+Chatbot: Epsilon closure of the state are the set of states that can be reached from that state with epsilon transition.
+\n
+User: What is your understanding regarding the regular expression?
+Chatbot: An algebraic expression for any regular language is called as regular expression.
+\n
+User: What is regular language?
+Chatbot: Regular languages are those languages which are accepted by the finite automata.
+\n
+User: What are regular operation?
+Chatbot: Those operators which are used for converting the regular language to regular expression or we say that operators that are used in regular expression are called regular operators.
+\n
+User: Why do we need Arden’s Theorem?
+Chatbot: We use Arden’s Theorem to determine a regular expression from the finite automata.
+\n
+User: What is Parse tree?
+Chatbot: A tree which is used to represent derivation of context free grammar is called as parse tree.
+\n
+User: What do you understand by Ambiguous?
+Chatbot: If more than one parse tree exists for any derivation then the tree is considered to be ambiguous.
+\n
+User: What is the concept of CFG?
+Chatbot: CFG which stands for context free grammar is a grammar which describe the structure of formal language using 4 tuples i.e (V,T,P,S).
+\n
+User: What do you understand by PDA?
+Chatbot: PDA which stands for Push Down Automata is the automata that accepts the context free language using a memory element stack.
+\n
+User: How does PDA differ from finite automata?
+Chatbot: PDA is a 7 tuple automata which accepts the context free language only in the stack but Finite automata is the 5 tuple automata which accepts the regular language.
+\n
+User: Give the concept of language of PDA.
+Chatbot: Language of PDA mean the way by which the strings are accepted by PDA and it can be done by two ways which are acceptance by final state and acceptance by empty stack.
+\n
+User: Define Instantaneous description of PDA.
+Chatbot: Instantaneous description of PDA means the way to represent or give the triplet description of the PDA.
+\n
+User: Define Turing Machine.
+Chatbot: A finite control machine which is connected to the read and write head and reads or writes in the tape which is divided into no of cells.
+\n
+User: How do you represent Turing Machine?
+Chatbot: Turing machine can be represented by three ways and they are:Instantaneous description,Transition table,Transition diagram.
+\n
+User: Difference between tractable and intractable problem.
+Chatbot: Tractable problems are those problem whose solution can be decided or determined by the help of some determined or well known algorithm in some polynomial time.Intractable problems are those problem whose solution can’t be decided or determined by the help of some determined algorithm and may use some non-polynomial time
+\n
+User: Define SAT.
+Chatbot: SAT is a Boolean Satisfiability Problem is a classic computational problem where we determine the goal of the problem by assigning a truth value i.e true or false to the variable.
+\n
+User: What are the NP class problem types.
+Chatbot: Types of NP class problems are:Abstract Problem,Decision Problem,Optimization Problem,Function Problem
+\n
